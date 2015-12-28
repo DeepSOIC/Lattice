@@ -36,6 +36,8 @@ __Communication__ = 'vv.titov@gmail.com; DeepSOIC on FreeCAD forum'
 
 class LatticeWorkbench (Workbench): 
     MenuText = 'Lattice'
+    ToolTip = "Lattice workbench"
+
     def __init__(self):
         # Hack: obtain path to Lattice by loading a dummy Py module
         import os
